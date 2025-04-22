@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>چک‌لیست فنون مذاکره بانکی</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      direction: rtl;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .section {
+      background-color: white;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    .section h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: #0a9396;
+    }
+    .item {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #eee;
+    }
+    .item:last-child {
+      border-bottom: none;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+    input[type="checkbox"] {
+      margin-left: 0.5rem;
+    }
+    .hint {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 0.3rem;
+    }
+    textarea {
+      width: 100%;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 0.5rem;
+      font-family: sans-serif;
+      font-size: 0.9rem;
+      resize: vertical;
+    }
+    .actions {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    button {
+      background-color: #94d2bd;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    button:hover {
+      background-color: #76c7aa;
+    }
+  </style>
+</head>
+<body>
+  <header>چک‌لیست فنون مذاکره با مشتری</header>
+  <div class="container" id="content">
+
+    <div class="section">
+      <h2>قبل از مذاکره</h2>
+      <div class="item">
+        <label><input type="checkbox"> بررسی سوابق مشتری</label>
+        <div class="hint">اطلاعات حساب، نوع خدمات قبلی، و میزان رضایت مشتری را بررسی کنید.</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+      <div class="item">
+        <label><input type="checkbox"> انتخاب خدمات قابل پیشنهاد</label>
+        <div class="hint">بر اساس نیاز مشتری، خدمات مناسب را انتخاب و آماده ارائه کنید.</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+      <div class="item">
+        <label><input type="checkbox"> تعیین هدف مذاکره</label>
+        <div class="hint">هدف اصلی مذاکره را مشخص کنید (مثلاً فروش محصول، ایجاد وفاداری، رفع مشکل).</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>حین مذاکره</h2>
+      <div class="item">
+        <label><input type="checkbox"> استفاده از تکنیک SPIN</label>
+        <div class="hint">سؤالات وضعیتی، مشکلی، پیامدی و نیاز را به‌درستی مطرح کنید.</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+      <div class="item">
+        <label><input type="checkbox"> گوش‌دادن فعال با یادداشت‌برداری</label>
+        <div class="hint">به صحبت‌های مشتری با دقت گوش دهید و نکات کلیدی را یادداشت کنید.</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+      <div class="item">
+        <label><input type="checkbox"> استفاده از داده‌ها برای پیشنهاد شخصی‌سازی‌شده</label>
+        <div class="hint">از سوابق تراکنش و علایق مشتری برای ارائه پیشنهاد خاص استفاده کنید.</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+      <div class="item">
+        <label><input type="checkbox"> آینه‌سازی زبان بدن مشتری</label>
+        <div class="hint">برای ایجاد حس همدلی، لحن و حرکات مشتری را تا حدی هماهنگ کنید.</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>بعد از مذاکره</h2>
+      <div class="item">
+        <label><input type="checkbox"> ثبت خلاصه جلسه</label>
+        <div class="hint">نکات مهم و تصمیمات گرفته شده را در سیستم ثبت کنید.</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+      <div class="item">
+        <label><input type="checkbox"> پیگیری با تماس یا پیامک</label>
+        <div class="hint">مشتری را از مراحل بعدی آگاه کرده و حس ارزشمندی را منتقل کنید.</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+      <div class="item">
+        <label><input type="checkbox"> ثبت بازخورد در سیستم</label>
+        <div class="hint">نظرات، اعتراض‌ها یا پیشنهادات مشتری را به‌درستی مستندسازی کنید.</div>
+        <textarea placeholder="یادداشت شما..."></textarea>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button onclick="checkAll(true)">تیک زدن همه</button>
+      <button onclick="checkAll(false)">پاک کردن تیک‌ها</button>
+      <button onclick="generatePDF()">دانلود PDF</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script>
+    function checkAll(value) {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      checkboxes.forEach(cb => cb.checked = value);
+    }
+
+    function generatePDF() {
+      const element = document.getElementById("content");
+      const opt = {
+        margin:       0.5,
+        filename:     'checklist.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(element).save();
+    }
+  </script>
+</body>
+</html>
